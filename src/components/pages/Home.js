@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Search from "../users/Search";
 import Users from "../users/Users";
 
-export const Home = () => {
+const Home = () => {
   const { users, loading } = this.state;
   return (
     <Fragment>
